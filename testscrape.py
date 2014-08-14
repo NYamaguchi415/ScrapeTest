@@ -48,7 +48,7 @@ for link in links:
 	winner = category_details["winner"]
 	runners_up = category_details["runners_up"]
 	print category
-
+	write_to_db(category)
 	
 
 
